@@ -1,4 +1,5 @@
-#!python3
+# Scrapper for YouTube videos. Gets title, description, url, thumbnail, translates the content with Google Translate and store results in a CSV file.
+# This was made for Wordpress Theme Upvote with its Story post format to work with an CSV importer. 
 from bs4 import BeautifulSoup
 import requests
 import csv
